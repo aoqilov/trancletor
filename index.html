@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="wraper">
+            <div class="text">
+                <textarea id="enter" placeholder="enter text"></textarea>
+                <textarea id="translate" readonly disabled placeholder="tranclate"></textarea>
+            </div>
+            <div class="icons">
+                <div class="left">
+                    <i id="from" class="fa-solid fa-volume-high" ></i>
+                    <i id="from" class="fa-solid fa-copy"></i>
+                    <select>
+                        <option value="en-GB">English</option>
+                    </select>
+                </div>
+                <i class="fa-solid fa-right-left" id="exchange"></i>
+                <div class="right">
+                    <select>
+                        <option value="uz-UZ">Uzbek</option>
+                    </select>
+                    <i id="to" class="fa-solid fa-copy"></i>
+                    <i id="to" class="fa-solid fa-volume-high " id="vol"></i>
+                </div>
+            </div>
+            <button>translate</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./js/country.js"></script>
+    <script src="./js/js.js"></script>
+</body>
+</html>
